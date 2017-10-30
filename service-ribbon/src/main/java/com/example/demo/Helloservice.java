@@ -23,5 +23,6 @@ public class Helloservice {
 
     public String hiError(String name) {
         return "hi,"+name+",sorry,error!";
+        //return hiService(name);
     }
 }
