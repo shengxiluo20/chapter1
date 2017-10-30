@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-@EnableEurekaServer
+@EnableEurekaServer    //TODO chi 表明是eureka服务
 @SpringBootApplication
 public class EurekaServerApplication {
 
